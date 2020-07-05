@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< Updated upstream
 import Footer from './components/Footer'
 import Gigai from './components/Gigai'
 
@@ -37,6 +38,15 @@ function App() {
 
   <Footer/>
   
+=======
+import HeaderComponent from './components/header';
+
+function App() {
+  return (
+    <div>
+      <HeaderComponent></HeaderComponent>
+      
+>>>>>>> Stashed changes
     </div>
   );
 }
