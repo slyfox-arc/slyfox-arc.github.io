@@ -1,0 +1,38 @@
+.Footer {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: black;
+  color: #fff;
+  }
+
+.rows{
+  box-sizing: border-box;
+  width: 50%;
+  display: flex;
+  margin-left: 2em;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  list-style-type: none;
+  }
+
+.col{
+    box-sizing: border-box;
+    width: 50%;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+  }
+
+.button{
+    box-sizing: border-box;
+    width: 50%;
+    display: horizontal;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+  }
