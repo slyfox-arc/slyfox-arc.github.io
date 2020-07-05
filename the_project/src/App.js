@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-<<<<<<< Updated upstream
-import Footer from './components/Footer'
+import Footer from './components/footer'
 import Gigai from './components/Gigai'
+import HeaderComponent from './components/header';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           Learn React
         </a>
   </header>*/}
+  <HeaderComponent></HeaderComponent>
   <Gigai name='Comrade Ayush'></Gigai>
   <Gigai name='Comrade Yagnesh'></Gigai>
   <h1>Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii,
@@ -38,17 +39,7 @@ function App() {
 
   <Footer/>
   
-=======
-import HeaderComponent from './components/header';
-
-function App() {
-  return (
-    <div>
-      <HeaderComponent></HeaderComponent>
-      
->>>>>>> Stashed changes
-    </div>
+  </div>
   );
 }
-
 export default App;

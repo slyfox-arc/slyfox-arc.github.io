@@ -1,38 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .Footer {
   box-sizing: border-box;
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 1em;
-  margin-bottom: 2em;
-  background-color: black;
+  background-color: rgb(24, 24, 51);
   color: #fff;
   }
 
 .rows{
   box-sizing: border-box;
-  width: 50%;
+  width: auto;
   display: flex;
   margin-left: 2em;
   justify-content: center;
-  background-color: black;
   color: #fff;
   list-style-type: none;
+  margin-bottom: 30px;
   }
 
-.col{
-    box-sizing: border-box;
-    width: 50%;
-    justify-content: center;
-    background-color: black;
-    color: #fff;
+.col li{
+    margin: 10px;
+    width: 150px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;    
   }
-
-.button{
-    box-sizing: border-box;
-    width: 50%;
-    display: horizontal;
-    justify-content: center;
-    background-color: black;
-    color: #fff;
-  }
+.col li h4{
+  text-decoration: underline;
+}
